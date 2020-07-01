@@ -1,0 +1,16 @@
+{
+    "manifest_version":2,
+    "name":"BugetManager",
+    "version":"1.0",
+    "description":"A Budget Manager extenion",
+    "icons":{"128":"icon.png"},
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_popup":"popup.html"
+    },
+    "options_page":"options.html",
+    "permissions":[
+        "storage",
+        "notifications"
+    ]
+}
